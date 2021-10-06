@@ -15,7 +15,5 @@ namespace Calculate.Model
             Database.EnsureCreated();
         }
 
-
-
     }
 }
