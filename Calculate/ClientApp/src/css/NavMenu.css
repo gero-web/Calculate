@@ -1,0 +1,46 @@
+﻿.nav_bar {
+    width: 100%;
+    height: 58px;
+    left: 61px;
+    right: 61px;
+    top: 10px;
+    background: #e6e4e4;
+    box-shadow: 4px 0px 10px rgba(93, 109, 151, 0.1)
+}
+
+.elipce {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    background-blend-mode: normal;
+}
+
+.elipce img {
+    width: 100%;
+    height: auto;
+    src: url(avatar.png);
+}
+
+.vevtor {
+    left: 100.15%;
+    right: -1.5%;
+    top: 14%;
+    bottom: 83.6%;
+    background: #5D6D97;
+}
+
+.navBrand {
+    position: absolute;
+    width: 142px;
+    height: 23px;
+    left: 84px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #5D6E97;
+}

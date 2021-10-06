@@ -1,0 +1,98 @@
+.label {
+    height: 21px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 17px;
+    margin-right: 13px;
+    color: #4b65a1;
+}
+
+.label:hover {
+    text-decoration: underline;
+    text-decoration-color: #84ade9;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    width: 100%;
+    margin-left: 5%;
+    flex-wrap: nowrap;
+}
+
+.calculete {
+    display: flex;
+    margin-top: 4%;
+}
+
+.table {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 700px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #5D6D97;
+}
+
+.input {
+    border-color: transparent;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.table thead tr td {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0%;
+    border: transparent;
+    background-color: #e6e4e4;
+    text-transform: uppercase;
+    color: #3C5AA8;
+}
+
+.table tr:hover {
+    border-color: #84ade9;
+}
+
+.create {
+    width: 189px;
+    height: 38px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 35%;
+    border-radius: 10px;
+    line-height: 16px;
+    border: transparent;
+    background: rgba(74, 157, 255, 0.27);
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.input:focus {
+    border-color: transparent;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+}
+
+.create:hover {
+    background: #4A9DFF;
+}

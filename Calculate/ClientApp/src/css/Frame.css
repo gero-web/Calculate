@@ -1,0 +1,74 @@
+.Frame {
+    width: 90%;
+    height: 750px;
+}
+
+.Container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    flex-direction: row;
+}
+
+.Line {
+    position: relative;
+    width: 215px;
+    height: 0px;
+    left: 0px;
+    border: 0.5px solid rgba(93, 110, 151, 0.4);
+}
+
+.vector {
+    width: 26px;
+    height: 26px;
+    stroke: #5D6D97;
+}
+
+.button-menu {
+    height: 53px;
+    display: flex;
+    border: transparent;
+    background-color: transparent;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5D6D97;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-menu:hover {
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    width: 215px;
+    height: 100%;
+    left: 0px;
+    top: 6.7%;
+    background: #f3f3f3;
+    /* ? */
+    box-shadow: 4px 0px 10px rgba(93, 109, 151, 0.1);
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+body {
+    position: 0;
+    margin: 0;
+    background: #e6e4e4;
+}
